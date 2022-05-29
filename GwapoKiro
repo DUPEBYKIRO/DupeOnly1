@@ -1,0 +1,8 @@
+print('kiro igop')
+local invoke = game:HttpGet("https://pastebin.com/nWrgVB25")
+local null = game:HttpGet("https://pastebin.com/dspdJ5JQ")
+
+while task.wait(4.5) do
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", invoke)
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", null)
+end
